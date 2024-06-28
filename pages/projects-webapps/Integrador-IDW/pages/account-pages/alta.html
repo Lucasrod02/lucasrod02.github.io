@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Nuevo Vendedor - Por el Mundo</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script src="../../scripts/script2.js" defer></script>
+    <link rel="icon" href="../../images/icon.webp"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../../index.html"><img src="../../images/logo.webp" alt="logo" class="logo"></a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../account.html" class="green-button nav-button">Volver</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="form-section">
+            <div class="form-container">
+                <h2>Alta de Nuevo Vendedor</h2>
+                <form action="#" method="post" id="submit-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input class="form-input" type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input class="form-input" type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cuit">CUIT:</label>
+                        <input class="form-input" type="text" id="cuit" name="cuit" pattern="\d{11}" title="El CUIT debe contener 11 digitos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input class="form-input" type="email" id="correo" name="correo" required>
+                    </div>
+                    <button type="submit" class="blue-button wide-button">Dar de Alta</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
