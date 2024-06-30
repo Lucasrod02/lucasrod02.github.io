@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="form-section">
+            <div class="form-container">
+                <h1 id="title">Becas Universitarias</h1>
+                <form action="#" id="survey-form">
+
+                    <label for="name" id="name-label" class="form-element elementss">N y A:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre y  apellido" class="form-element elementss" required>
+
+                    <label for="email" id="email-label" class="form-element elementss">Correo:</label>
+                    <input type="email" id="email" name="name" placeholder="ingrese su correo" pattern=".+@example\.com" size="30" class="form-element elementss" required />
+
+                    <label for="number" id="number-label" class="form-element elementss">Año en curso:</label>
+                    <input type="number" id="number" name="number" min="0" max="10" placeholder="Ingrese el año que esta cursando" class="form-element elementss" required>
+
+                    <label for="dropdown" class="form-element elementss">Ingrese su universidad:</label>
+                    <select name="universidad" id="dropdown" class="form-element elementss border">
+                        <option value="Exactas">Exactas UNSJ</option>
+                        <option value="Sociales">Sociales UNSJ</option>
+                        <option value="Sociales">Filosofía UNSJ</option>
+                    </select>
+
+                    <fieldset class="elementss no-border">
+                        <legend>¿Como clasificaría su estado económico?</legend>
+                        <input type="radio" id="muy-bueno" name="economic-state" value="Muy Bueno">
+                        <label for="muy-bueno">Muy Bueno</label>
+                        <input type="radio" id="bueno" name="economic-state" value="Bueno">
+                        <label for="bueno">Bueno</label>
+                        <input type="radio" id="malo" name="economic-state" value="Malo">
+                        <label for="malo">Malo</label>
+                    </fieldset>
+
+                    <fieldset class="elementss no-border">
+                        <legend>Seleccione con que dispositivos cuenta:</legend>
+                        <input type="checkbox" id="celular" name="celular" value="celular">
+                        <label for="celular">Celular</label>
+                        <input type="checkbox" id="Computadora" name="computadora" value="computadora">
+                        <label for="computadora">Computadora</label>
+                    </fieldset>
+
+                    <p id="description">Comentarios adicionales sobre su situación:</p>
+                    <textarea placeholder="Coméntenos sobre usted" class="form-element elementss border"></textarea>
+                    <button type="submit" id="submit" class="elementss">Enviar</button>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
