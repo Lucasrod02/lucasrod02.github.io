@@ -1,0 +1,144 @@
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+}
+.formulario-custom {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #FFC93C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.formulario-custom .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario-custom label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-custom .form-control,
+.formulario-custom .form-select,
+.formulario-custom .input-group-text {
+    height: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.email-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.email-input {
+    flex: 1;
+    height: 38px;
+}
+
+.email-at {
+    height: 38px;
+    margin-left: 5px;
+}
+
+.email-select {
+    flex: 1;
+    height: 38px;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.center-button button {
+    margin-top: 20px;
+}
+
+.barrio-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label[for="barrio"] {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.form-select {
+    width: 100%;
+}
+
+.btn-custom {
+    color: white !important;
+    border: 1px solid transparent;
+    background-color: #155263 !important;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #0d313b !important;
+}
+
+/* Media queries para dispositivos moviles */
+@media (max-width: 768px) {
+    .formulario-custom {
+        width: 98%;
+    }
+
+    .email-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .email-input, .email-select, .email-at {
+        height: 38px; /* Misma altura a todos los elementos */
+    }
+
+    .email-at {
+        margin-left: 5px;
+    }
+
+    .email-select {
+        margin-left: 5px;
+    }
+}
+
+.nav-color{
+    color: rgba(0,0,0,.5);
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+
+
+
+

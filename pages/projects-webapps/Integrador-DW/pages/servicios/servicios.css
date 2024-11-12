@@ -1,0 +1,245 @@
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    padding: 8px 16px;
+    border-radius: 15px;
+    margin: 10px 5px 5px 5px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+}
+
+.full-width-image {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.vertical-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-content {
+    width: 55%;
+    padding: 20px;
+    border: 3px solid #FFC93C;
+    background-color: #FFC93C;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.text-beside-image {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.cemetery-info {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFC93C;
+    background-color: #FFC93C;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.cemetery-info p {
+    margin: 5px 0;
+}
+
+#carouselExample {
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media queries para dispositivos moviles */
+@media (max-width: 768px) {
+    .content-section,
+    .text-content,
+    .cemetery-info,
+    #carouselExample,
+    .full-width-image,
+    h2,
+    .carousel-inner,
+    .carousel-item img,
+    .content-section *,
+    .cemetery-info *,
+    .text-content * {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .content-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .vertical-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        text-align: center;
+        width: 100%;
+        padding: 0 2px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cemetery-info {
+        width: 100%;
+    }
+
+
+    #carouselExample {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1391px) {
+    .content-section,
+    .text-content,
+    .cemetery-info,
+    #carouselExample,
+    .full-width-image,
+    h2,
+    .carousel-inner,
+    .carousel-item img,
+    .content-section *,
+    .cemetery-info *,
+    .text-content * {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .content-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .vertical-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        text-align: center;
+        width: 100%;
+        padding: 0 2px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cemetery-info {
+        width: 100%;
+        margin: 20px 0;
+        margin-top: 0px !important;
+    }
+
+    #carouselExample {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.nav-color {
+    color: rgba(0,0,0,.5);
+}
+
+.conteine {
+    margin-top: -30px !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.imagen-servicios {
+    margin-top: 15px;
+}
+
+.font-light {
+    font-weight: 500;
+}
+
+.p-basura {
+    padding-top: 10px;
+}
+
+.contenedor-basura {
+    text-align: center;
+}
+
+.image-basura {
+    width: 15em;
+    margin-bottom: 10px;
+}
+
+.cemetery-icon{
+    font-size: 6em;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipalidad 25 de Mayo - Contacto</title>
+    <link rel="icon" href="../../images/icon.png" type="icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <section class="section-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light colNaranjaD shadow-lg">
+            <a class="navbar-brand" href="../../index.html"><img class="logo" src="../../images/image-removebg-preview.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item border-bottom navite">
+                        <a class="nav-link d-flex justify-content-center nav-color" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item border-bottom navite">
+                        <a class="nav-link d-flex justify-content-center nav-color" href="../servicios/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item navite border-bottom active">
+                        <a class="nav-link d-flex justify-content-center nav-color" href="../transparencia/transparencia.html">Transparencia</a>
+                    </li>
+                    <li class="nav-item border-bottom navite">
+                        <a class="nav-link d-flex justify-content-center nav-color" href="../novedades/novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item navite">
+                        <a class="nav-link d-flex justify-content-center nav-color" style="color: rgba(0, 0, 0, .9);" href="#">Contacto<span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+<!-- Fin Navbar -->
+<h1>> Contacto</h1>
+    <!-- formulario -->
+    <section class="formulario-custom">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-12">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <div class="valid-feedback"></div>
+        </div>
+        <div class="col-12">
+            <label for="validationCustom02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback"></div>
+        </div>
+        <div class="col-12">
+            <label for="validationCustomEmail" class="form-label">Email</label>
+            <div class="input-group email-group has-validation">
+                <input type="text" class="form-control email-input" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
+                <span class="input-group-text email-at" id="arroba">@</span>
+                <select class="form-select email-select" id="emailDomain" required>
+                    <option value="gmail.com">gmail.com</option>
+                    <option value="hotmail.com">hotmail.com</option>
+                    <option value="yahoo.com">yahoo.com</option>
+                    <option value="outlook.com">outlook.com</option>
+                </select>
+            </div>
+            <div class="invalid-feedback"></div>
+        </div>
+        
+        <div class="col-12">
+            <label for="validationCustom03" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback"></div>
+        </div>
+        <div class="col-12 barrio-container">
+            <label for="validationCustom04" class="form-label" id="barrio">Barrio</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option value="capital">Barrio Sadop</option>
+                <option value="capital">Dos Acequias</option>
+                <option value="capital">San Isidro</option>
+                <option value="capital">Villa Dominguito</option>
+                <option value="capital">Villa Don Bosco</option>
+                <option value="capital">Villa San Martin</option>
+            </select>
+            <div class="invalid-feedback"></div>
+        </div>
+        
+        <div class="col-12">
+            <label for="validationCustom05" class="form-label">Codigo Postal</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback"></div>
+        </div>
+        <div class="col-12 center-button">
+            <button class="btn btn-custom" type="submit">Enviar formulario</button>
+        </div>
+    </form>
+</section>
+<!-- fin formulario -->
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container colNaranjaD">
+          <footer class="py-4">
+            <a class="navbar-brand d-flex justify-content-center" href="../../index.html">
+              <img class="logo-f" src="../../images/image-removebg-preview.png" alt="Logo" />
+            </a>
+      
+            <!-- Redes Sociales -->
+            <ul class="nav justify-content-center pb-3 mb-3 footer-links">
+              <li class="nav-item">
+                <span class="iconify footer-icon" data-icon="prime:twitter" style="margin-right: 60px"></span>
+                <span class="iconify footer-icon" data-icon="mdi:youtube" style="margin-right: 60px"></span>
+                <span class="iconify footer-icon" data-icon="mdi:instagram" style="margin-right: 60px"></span>
+                <span class="iconify footer-icon" data-icon="ic:baseline-facebook"></span>
+              </li>
+            </ul>
+      
+            <!-- Contacto y acceso rapidos-->
+            <div class="row align-items-start contactoRapido margen-contacto">
+              <div class="col text-center">
+                <h4>Contacto</h4>
+                <div class="contact-info">
+                  <p>
+                    <span class="iconify icono-contacto" data-icon="mdi:location"></span> Dirección: <br />
+                    Av. Ramón Barrera & 9 De Julio, Villa Santa Rosa, San Juan.
+                  </p>
+                  <p>
+                    <span class="iconify icono-contacto" data-icon="ic:baseline-phone"></span> Teléfono: <br />
+                    0264 497-8010
+                  </p>
+                </div>
+              </div>
+      
+              <div class="col text-center">
+                <h4>Acceso Rápido</h4>
+                
+                <a class="nav-link footer-links" href="../servicios/servicios.html">> Servicios</a>
+                <a class="nav-link footer-links" href="../transparencia/transparencia.html">> Transparencia</a>
+                <a class="nav-link footer-links" href="../novedades/novedades.html">> Novedades</a>
+                <a class="nav-link footer-links" href="#">> Contacto</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+      <!-- ------------- -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

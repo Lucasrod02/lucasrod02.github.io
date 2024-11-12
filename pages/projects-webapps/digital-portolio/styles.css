@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  background-color: #ddd9ab;
+  color: #333;
+}
+
+/* --------- Header --------- */
+
+.nav-container {
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f7af63;
+  color: #333;
+  /* width: 100%; */
+}
+
+.nav-link {
+  transition: all 0.2s ease-out;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.no-hover {
+  transition: none;
+}
+
+.nav-item {
+  padding: 0 50px;
+}
+
+.navite {
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .navite {
+    padding-left: 0px;
+    font-size: 15px;
+  }
+}
+
+/* --------------------------- */
+
+/* --------- Menu principal --------- */
+
+.perfil-container {
+  background-color: #f7af63;
+}
+
+.card-container {
+  background-color: #f7af63;
+  border-radius: 30px 0 0 30px;
+  height: 20%;
+  background: linear-gradient(to right, #f7af63 80%, #ddd9ab 100%);
+}
+
+.text-container {
+  background-color: #f7af63;
+  border-radius: 50px 50px 0 0;
+  background: linear-gradient(to bottom, #f7af63 80%, #ddd9ab 100%);
+}
+
+.menu-descripcion {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.menu-icon {
+  font-size: 90px;
+  color: #633d2e;
+}
+
+.card-text {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* margin-left: 10%; */
+}
+
+/* --------------------------- */
+
+/* --------- Blog --------- */
+
+.blog-post {
+  background-color: #f7af63;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+}
+.blog-post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+.blog-post h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.blog-post p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.blog-footer {
+  text-align: center;
+  margin-top: 15px;
+  color: gray;
+}
+
+.elbuton {
+  background-color: #633d2e;
+  color: white;
+  width: 200px;
+  display: block;
+  margin: 20px auto 0px auto;
+  border: none;
+}
+
+.elbuton:hover {
+  color: white;
+  background-color: #452b20;
+}
+
+/* --------------------------------- */
+
+/* --------- Formacion --------- */
+
+.carrusel {
+  margin-top: 150px;
+  position: relative;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.subtitulos {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.parrafos {
+  font-size: 1.2rem;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border: none;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa9a34;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.img-carrusel{
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* --------------------------- */
+
+/* --------- Formulario --------- */
+
+.form-container {
+  background-color: #f7af63;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  font-family: "Playfair Display", serif;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-submit {
+  background-color: #633d2e;
+  color: white;
+  width: 160px;
+  display: block;
+  margin: 20px auto 0px auto;
+}
+
+.btn-submit:hover {
+  color: white;
+  background-color: #452b20;
+}
+
+/* ---------------------------  */
+
+/* --------- Footer --------- */
+
+.footer-container {
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f7af63;
+  color: #333;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-icon {
+  font-size: 30px;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: black;
+}
+
+.no-hover {
+  transition: none;
+}
+
+/* --------------------------- */

@@ -1,0 +1,65 @@
+/* Transparencia Styles */
+
+.card, .card-body {
+  border-radius: 10px;
+  border: none;
+}
+
+.card-section{
+  margin: 20px 0px;
+}
+
+.marginBottom{
+  margin-bottom: 20px;
+}
+
+.fileSize{
+  margin-left: 10px;
+}
+
+.downloadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fileContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #000;
+}
+
+.btnAzul {
+  display: flex;
+  align-items: center;
+  height: 30px;
+
+}
+
+.col-sm-6{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Responsive design */
+
+@media(min-width: 575px){
+  .col-sm-6{
+    max-width: 100%;
+  }
+  .card-body{
+    padding: 20px 60px;
+    margin: 0px 50px;
+  }
+}
+
+@media(min-width: 1050px){
+  .card-body{
+    padding: 20px 100px;
+  }
+}

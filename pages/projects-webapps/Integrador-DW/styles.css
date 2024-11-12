@@ -1,0 +1,153 @@
+/* Global Styles */
+
+html, body {
+  overflow-x: hidden;
+}
+
+.btnAzul{
+    background-color: #155263;
+    color: #fff;
+}
+
+.btnAzul:hover {
+    color: #fff;
+    background-color: #0d313b;
+  }
+
+.colNaranjaD{
+    background-color: #FF6F3C;
+}
+
+.colNaranjaL{
+    background-color: #FF9A3C;
+}
+
+.colAmarillo{
+    background-color: #FFC93C;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+  }
+
+/* Navbar Styles */
+
+.border-bottom{
+    border-color: black !important;
+}
+
+.navbar{
+  padding: 8px 16px;
+    border-radius: 15px;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.logo{
+    width: 3em;
+}
+
+.logo-f{
+    width: 5em;
+    margin-bottom: 1em;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
+
+
+/* Footer */
+
+  .footer-icon {
+    font-size: 30px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-icon:hover {
+    color: black;
+  }
+  
+  .no-hover {
+    transition: none;
+  }
+
+  .icono-contacto{
+    font-size: 2em;
+  }
+
+  .margen-contacto{
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+  }
+
+  .footer-links{
+    color: #212529;
+  }
+
+  .footer-links:hover{
+    color: #000;
+  }
+  
+  .contactoRapido{
+    margin-bottom: 1em;
+  }
+
+  .card-title, .modal-title{
+    font-weight: bold;
+  }
+
+  .card-text, .modal-body p{
+    font-weight: 500;
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption p {
+    font-weight: 500 !important;
+  }
+
+  .main_title{
+    margin-bottom: 20px;
+  }
+
+  /* Responsive design */
+
+  @media (max-width: 1000px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+    .container, .my-5, .mb-5 {
+        padding-left: 1.5px;
+        padding-right: 1.5px;
+    }
+}
+
+
+  @media(min-width: 990px){
+    .navite{
+        margin-left: 4em;
+        border: none;
+    }
+    .border-bottom{
+        border: none !important;
+    }
+
+    .margen-contacto{
+        margin-left: 18em;
+        margin-right: 18em;
+    }
+}

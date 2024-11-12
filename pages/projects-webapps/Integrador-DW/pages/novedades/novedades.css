@@ -1,0 +1,52 @@
+/* Novedades Styles */
+
+.card{
+    border: none;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+.modal-img {
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    border: none;
+}
+
+.nove{
+    margin-top: 20px !important;
+}
+
+/* Responsive design */
+
+@media (min-width: 768px) {
+    .card {
+        height: 350px; /* Altura fija para igualar tamaño contenedores*/
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .card-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media(max-width: 1000px){
+    .modal-dialog {
+        max-width: 23em; /* tamaño contenedor modal */
+        margin: 1.75rem auto; /* centrar contendor modal */
+    }
+    .col-md-4{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}

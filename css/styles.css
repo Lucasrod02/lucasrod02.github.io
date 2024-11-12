@@ -177,6 +177,10 @@ nav {
     transition: opacity 0.5s;
 }
 
+.anchor-hover:hover{
+    color: #797979;
+}
+
 /* MQ for responsive design */
 
 
@@ -217,8 +221,4 @@ nav {
         width: 70px;
     }
 }
-
-
-
-
 
